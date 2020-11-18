@@ -1,0 +1,21 @@
+
+.btn--modal-close {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 490px;
+  margin-top: 8px;
+  margin-right: 8px;
+
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  &:hover{
+    @extend %btn--modal-close--hover;
+  }
+  &:focus {
+    @extend %btn--modal-close--hover;
+  }
+}

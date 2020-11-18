@@ -1,0 +1,66 @@
+
+@mixin styles--font(
+  $fs: 16px,
+  $lh: 1.14,
+  $ls: 0.06em,
+  $fw: 700,
+) {
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  font-weight: $fw;
+}
+@each $dpl in flex, inline-flex, block, inline-bloc {
+
+}
+@mixin disp--posit(
+  $dp: flex,
+  $ai: center,
+  $jc: center,
+  $jc: center,
+  $ta: center,
+
+)
+{
+  display: $dp;
+  align-items: $ai;
+  justify-content: $jc;
+  text-align: $ta;
+
+}
+// @mixin flex(
+//   $ds:@extend %df;
+//   $lh: 1.14,
+//   $ls: 0.06em,
+//   $fw: 700,
+// ) {
+//   font-size: $fs;
+//   line-height: $lh;
+//   letter-spacing: $ls;
+//   font-weight: $fw;
+// }
+// @include styles--font(16px, 1.14, 0.06, 700);
+
+// @each $col in $title, $btn, $text, $accent--color {
+//   .#{$col}-color {
+//     color:#{$col}
+//   }
+// }
+
+// @mixin color($col) {
+//   @if ($col==title) {
+//     color: $title;
+//   } @else if($col==text) {
+//     color: $text;
+//   } @else if($col==btn) {
+//     color: $btn;
+//   } @else if($col==accent--color) {
+//     color: $accent--color;
+//   } @else if($col==title-lite) {
+//     color: $title-lite;
+//   } @else if($col==btn--light) {
+//     color: $btn--light;
+//   } @else if($col==text--light) {
+//     color: $text--light;
+//   }
+// }

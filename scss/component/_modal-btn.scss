@@ -1,0 +1,16 @@
+.modal--form-btn {
+  width: 200px;
+  @extend %block--alignment;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 56px;
+  padding-right: 55px;
+  border: none;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: $btn--light;
+  background-color: $accent--color;
+}

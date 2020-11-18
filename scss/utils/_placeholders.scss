@@ -1,0 +1,126 @@
+
+%discharge-m-p {
+  margin: 0;
+  padding: 0;
+}
+
+%block--alignment {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%flex--center{
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+%flex--alignment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  @extend %flex--center;
+}
+
+
+%flex--align-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+%input--border-hover {
+  border: 1px solid $accent--color;
+    fill: $accent--color;
+}
+
+%input--border-hover--svg {
+  fill: $accent--color;
+}
+
+%input-hover {
+  margin-top: -23px;
+  margin-left: 0;
+  font-size: 12px;
+  line-height: 1.16px;
+  letter-spacing: 0.01em;
+  color: $accent--color;
+}
+
+%textarea-hover {
+  margin-top: -23px;
+  margin-left: 0;
+  font-size: 12px;
+  line-height: 1.16px;
+  letter-spacing: 0.01em;
+  color: $accent--color;
+}
+
+%btn--modal-close--hover {
+  color: $accent--color;
+  fill: $accent--color;
+}
+
+%portfolio--btn-text--hover {
+  color: $btn--light;
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 3px 1px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: $accent--color;
+}
+
+%customers--link{
+  fill: $accent--color;
+  border-color: $accent--color;
+}
+
+%command--soshial-link{
+  background-color: $accent--color;
+}
+
+%command--soshial-svg{
+  fill: #ffffff;
+}
+
+%coordinates--item1-coordinates--tex{
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.14px;
+  text-transform: uppercase;
+  color: $title--lite;
+}
+
+%coordinates--list-command--soshial-link{
+  background-color: $accent--color;
+}
+
+%nav--link{
+  color: $accent--color;
+}
+
+%nav--link1-hover--nav-item1--svg{
+  fill: $accent--color;
+  color: $accent--color;
+}
+
+%work--catalog-item--hover-work--catalog-style{
+  top: 0;
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+//  это используется для адаптивной верстки
+%jpg{
+  display: block;
+  max-width: 460;
+  height: auto;
+
+}
