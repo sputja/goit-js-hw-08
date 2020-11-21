@@ -19,8 +19,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background-color: #fff;
   color: #212121;
 }
@@ -101,7 +101,6 @@ body {
 .lightbox.is-open .lightbox__content {
   transform: scale(1);
 }
-
 .lightbox__image {
   display: block;
   width: auto;
@@ -128,7 +127,7 @@ body {
   cursor: pointer;
   transition: background-color var(--animation-duration) var(--timing-function);
   outline: none;
-  background-image: url('../images/icon-close.svg');
+  background-image: url("../images/icon-close.svg");
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
